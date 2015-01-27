@@ -1,0 +1,19 @@
+<div> <div ng-show="modalIsShowing"> <div class="modal"> <div class="modal-backdrop"></div> <div class="modal-dialog modal-robot"> <div class="modal-content"> <!-- modal-header Begin --> <div class="modal-header modal-robot-header"> <div class="modal-robot-head"> <img ng-src="{{robotModal.large_pic}}"> </div> <div class="modal-robot-name"> <span> {{robotModal.mname}} </span> </div> </div> <!-- modal-header End --> <div class="modal-body"> <div class="row"> <div class="col-xs-12 col-sm-10 col-sm-offset-1"> <li class="col-xxs-12 col-xs-4 info-show-{{tabInfoShowing}}" ng-click="showTabInfo()"> 信息设置 </li> <li class="col-xxs-12 col-xs-4 manager-show-{{tabManegerShowing}}" ng-click="showTabManager()"> 管理员设置 </li> <li class="col-xxs-12 col-xs-4 code-show-{{tabCodeShowing}}" ng-click="showTabCode()"> 获取代码 </li> </div> </div> <!-- <div class="tab-position-center">
+              <ul class="cx-tabs">
+                <li class="info-show-{{tabInfoShowing}}">
+                  <a ng-click="showTabInfo()">
+                    信息设置
+                  </a>
+                </li>
+                <li class="manager-show-{{tabManegerShowing}}">
+                  <a ng-click="showTabManager()">
+                    管理员设置
+                  </a>
+                </li>
+                <li class="code-show-{{tabCodeShowing}}">
+                  <a ng-click="showTabCode()">
+                    获取代码
+                  </a>
+                </li>
+              </ul>
+            </div> --> <!-- Tab panes --> <div class="cx-tab-content"> <div robot-modal-tab-information ng-show="tabInfoShowing"> </div> <div robot-modal-tab-manager ng-show="tabManegerShowing"> </div> <div robot-modal-tab-get-code ng-show="tabCodeShowing"> </div> </div> </div> <div class="modal-footer"> <button class="cx-btn" ng-click="closeRobotModal()"> closed </button> </div> </div> </div> </div> </div> </div>
