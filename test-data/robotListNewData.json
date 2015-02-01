@@ -1,8 +1,7 @@
 [
   {
-    "id": 1,
-    "name": "第七子",
-    "large_pic": "/images/yeoman.png",
+    "name": "第七子new",
+    "large_pic": "http://202.118.250.16:48006//pics/p2219751593.jpg",
     "default": 1762,
     "welcome": "2015-01-16",
     "qq": 604,
@@ -10,41 +9,38 @@
     "email": "welcome@163.com"
   },
   {
-    "id": 2,
-    "large_pic": "/images/yeoman.png",
+
+    "large_pic": "http://202.118.250.16:48006//pics/p2219669553.jpg",
     "default": 16500,
     "welcome": "2015-01-16",
-    "name": "降魔之战",
+    "name": "降魔之战new",
     "qq": 44386,
     "phone": 3870,
     "email": "welcome@163.com"
   },
   {
-    "id": 3,
-    "large_pic": "/images/yeoman.png",
+    "large_pic": "http://202.118.250.16:48006//pics/p2220650293.jpg",
     "default": 860,
     "welcome": "2015-01-10",
-    "name": "亡命地中海",
+    "name": "亡命地中海new",
     "qq": 2808,
     "phone": 3867,
     "email": "welcome@163.com"
   },
   {
-    "id": 4,
-    "large_pic": "/images/yeoman.png",
+    "large_pic": "http://202.118.250.16:48006//pics/p2219662154.jpg",
     "default": 1218,
     "welcome": "2015-01-09",
-    "name": "前目的地",
+    "name": "前目的地new",
     "qq": 4686,
     "phone": 3859,
     "email": "welcome@163.com"
   },
   {
-    "id": 5,
-    "large_pic": "/images/yeoman.png",
+    "large_pic": "http://202.118.250.16:48006//pics/p2220435750.jpg",
     "default": 331,
     "welcome": "2015-01-09",
-    "name": "安妮：纽约奇缘",
+    "name": "纽约奇缘new",
     "qq": 4425,
     "phone": 3869,
     "email": "welcome@163.com"
