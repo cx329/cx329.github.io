@@ -1,4 +1,7 @@
-<div class="getCode"> <form class="code-form"> <div class="row"> <div class="col-xxs-12 col-xs-4 col-sm-4"> 上传图片 </div> <div class="col-xxs-12 col-xs-8 col-xs-8"> <input type="text" ng-model="myModelObj"> <!-- <input type="file" ng-file-select="onFileSelect($files)"> --> <input type="file" ng-file-select="onFileSelect($files)" multiple accept="image/*"> <!--  <div class="button"
-             ng-file-select="onFileSelect($files)"
-             data-multiple="true">
-        </div> --> <div ng-file-drop="onFileSelect($files)" ng-file-drag-over-class="optional-css-class-name-or-function" ng-show="dropSupported"> 拖拽 </div> <div ng-file-drop-available="dropSupported=true" ng-show="!dropSupported"> 不支持HTML5 文件上传 </div> <button ng-click="upload.abort()"> 取消上传 </button> </div> </div> <div class="row"> <div class="col-xxs-12 col-xs-4 col-sm-4"> 选择风格: </div> <div class="col-xxs-12 col-xs-8 col-sm-8"> <input name="" ng-model="theEditingRobot.name" required> </div> </div> <div class="row"> <div class="col-xs-6 col-xs-offset-3"> <button class="cx-form-control"> 获取代码 </button> </div> </div> </form> </div>
+<div class="getCode"> <form name="code-form"> <div class="section"> 上传机器人头像 <div class="robot-head"> <img src="{{theEditingRobot.large_pic}}"> </div> <input type="file" ng-file-select="onFileSelect($files)" multiple accept="image/*"> <div class="button" ng-file-select="onFileSelect($files)" data-multiple="true"> </div> <!--     <div ng-file-drop="onFileSelect($files)"
+           ng-file-drag-over-class="optional-css-class-name-or-function"
+           ng-show="dropSupported">
+        拖拽
+      </div> --> <div ng-file-drop-available="dropSupported=true" ng-show="!dropSupported"> 不支持HTML5 文件上传 </div> <!--     <button ng-click="upload.abort()">
+        取消上传
+      </button> --> </div> <div class="section"> 选择风格 <div class="cx-inputer"> <input> </div> <div class="cx-inputer"> <input> </div> </div> <div class="section"> 获取代码 <button class="cx-form-control cx-btn-active">获取代码</button> </div> </form> <div class="robot-modal-footer"> <span class="" ng-click="closeRobotModal()"> 取消 </span> <span class="save" ng-click="saveInfoData()"> 保存 </span> </div> </div>
