@@ -1,1 +1,23 @@
-<p>This is the help view.</p>
+<style type="text/css">#TextArea {
+    overflow: hidden;
+
+    height:auto;
+    max-width:600px;
+    color:#999;
+    font-weight:400;
+    font-size:30px;
+    font-family:'Ubuntu', Helvetica, Arial, sans-serif;
+    width:100%;
+    background:#fff;
+    border-radius:3px;
+    line-height:2em;
+    border:none;
+    box-shadow:0px 0px 5px 1px rgba(0,0,0,0.1);
+    padding:30px;
+    -webkit-transition: height 0s ease;
+    -moz-transition: height 0s ease;
+    -ms-transition: height 0s ease;
+    -o-transition: height 0s ease;
+    transition: height 0s ease;
+  }</style> <textarea id="TextArea" ng-model="loremIpsum" ng-keyup="autoExpand('TextArea')" placeholder="This is an auto expanding textarea with just angularjs ... try typing something.">
+</textarea>
