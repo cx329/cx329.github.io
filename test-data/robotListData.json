@@ -5,9 +5,9 @@
     "large_pic": "/images/yeoman.png",
     "default": 1762,
     "welcome": "2015-01-16",
-    "qq": 604,
-    "phone": 3824,
-    "email": "welcome@163.com"
+    "qqs": [123456789 , 2091340987],
+    "phones": ["19409837561","1201-9876203"],
+    "managers": ["welcome@163.com", "haha@baidu.com"]
   },
   {
     "id": 2,
@@ -15,9 +15,9 @@
     "default": 16500,
     "welcome": "2015-01-16",
     "name": "降魔之战",
-    "qq": 44386,
-    "phone": 3870,
-    "email": "welcome@163.com"
+    "qqs": [123456789 , 2091340987],
+    "phones": ["19409837561","1201-9876203"],
+    "managers": ["welcome@163.com", "haha@baidu.com"]
   },
   {
     "id": 3,
@@ -25,9 +25,9 @@
     "default": 860,
     "welcome": "2015-01-10",
     "name": "亡命地中海",
-    "qq": 2808,
-    "phone": 3867,
-    "email": "welcome@163.com"
+    "qqs": [123456789 , 2091340987],
+    "phones": ["19409837561","1201-9876203"],
+    "managers": ["welcome@163.com", "haha@baidu.com"]
   },
   {
     "id": 4,
@@ -35,9 +35,9 @@
     "default": 1218,
     "welcome": "2015-01-09",
     "name": "前目的地",
-    "qq": 4686,
-    "phone": 3859,
-    "email": "welcome@163.com"
+    "qqs": [123456789 , 2091340987],
+    "phones": ["19409837561","1201-9876203"],
+    "managers": ["welcome@163.com", "haha@baidu.com"]
   },
   {
     "id": 5,
@@ -45,8 +45,8 @@
     "default": 331,
     "welcome": "2015-01-09",
     "name": "安妮：纽约奇缘",
-    "qq": 4425,
-    "phone": 3869,
-    "email": "welcome@163.com"
+    "qqs": [123456789 , 2091340987],
+    "phones": ["19409837561","1201-9876203"],
+    "managers": ["welcome@163.com", "haha@baidu.com"]
   }
 ]
